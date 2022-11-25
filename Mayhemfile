@@ -1,5 +1,4 @@
 image: tngo04/hound:latest
-duration: 600
 project: tngo04/hound
 target: hound-fuzz
 cmds:
