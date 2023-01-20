@@ -1,0 +1,5 @@
+image: tngo04/hound:latest
+project: tngo04/hound
+target: hound-fuzz
+cmds:
+  - cmd: /decode_full
