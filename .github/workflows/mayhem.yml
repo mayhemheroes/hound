@@ -43,7 +43,7 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
 
       - name: Mayhem for Code Scan
-        uses: ForAllSecure/mcode-action@v1
+        uses: forallsecure/mcode-action@long-runs
         with:
           mayhem-url: https://mayhem.forallsecure.com
           mayhem-token: ${{ secrets.MAYHEM_TOKEN }}
